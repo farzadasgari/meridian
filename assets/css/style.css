@@ -172,3 +172,9 @@ p:last-child {margin-bottom: 0;}
   line-height: 1.65;
   color: var(--muted);
 }
+
+.text-muted-2 { color: var(--muted);}
+.text-faint { color: var(--faint);}
+.text-primary-brand {color: var(--primary);}
+.small, small {font-size: var(--fs-sm);}
+.text-xs {font-size: var(--fs-xs);}
