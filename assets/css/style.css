@@ -141,3 +141,11 @@ body {
   letter-spacing: -0.005em;
   transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease);
 }
+
+h1, h2, h3, h4, h5, h6, .display-title {
+  font-family: var(--font-display);
+  color: var(--text);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin-block: 0 0.5em;
+}
