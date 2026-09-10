@@ -149,3 +149,11 @@ h1, h2, h3, h4, h5, h6, .display-title {
   letter-spacing: -0.025em;
   margin-block: 0 0.5em;
 }
+
+h1, .h1 { font-size: var(--fs-h1);}
+h2, .h2 { font-size: var(--fs-h2);}
+h3, .h3 { font-size: var(--fs-h3);}
+h4, .h4 { font-size: var(--fs-h4); font-weight: 650;}
+h5, .h5 { font-size: var(--fs-body); font-weight: 650; letter-spacing: -0.015em;}
+h6, .h6 { font-size: var(--fs-sm); font-weight: 650; letter-spacing: -0.01em;}
+
