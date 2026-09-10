@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/css/sections.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
+
   <body class="">
     <a href="#main" class="skip-link">Skip to main Content</a>
 
@@ -35,7 +36,7 @@
             </li>
           </ul>
           <div class="d-none d-md-flex align-items-center gap-3">
-            <a href="orders.html">Track and Order</a>
+            <a href="orders.html">Track an order</a>
             <a href="faq.html">Help</a>
           </div>
         </div>
@@ -43,15 +44,18 @@
 
       <div class="navbar-main" id="navbarMain">
         <div class="container">
-          <div class="d-flex align-items-center gap-3">
-            <a href="index.html" class="brand">
-              <span class="brand__mark" aria-hidden="true">
-                <i class="bi bi-chevron-double-up"></i>
-              </span>
+          <div
+            class="d-flex align-items-center gap-3"
+            style="min-height: var(--navbar-h)"
+          >
+            <a class="brand" href="index.html">
+              <span class="brand__mark" aria-hidden="true"
+                ><i class="bi bi-chevron-double-up"></i
+              ></span>
               Meridian
             </a>
 
-            <nav class="nav-main ms-2">
+            <nav class="nav-main ms-2" aria-label="Main">
               <div class="dropdown megamenu js-hover-dropdown">
                 <button
                   class="nav-main__link"
@@ -68,95 +72,164 @@
                     aria-hidden="true"
                   ></i>
                 </button>
+
                 <div class="dropdown-menu megamenu__panel mt-2">
                   <div class="row g-4">
                     <div class="col-lg-2 col-md-4 col-6">
                       <h2 class="megamenu__group-title h6">
-                        <i class="bi bi-cpu">Electronics</i>
+                        <i class="bi bi-cpu"></i>Electronics
                       </h2>
                       <ul class="megamenu__links">
-                        <li><a href="shop.html">Smartphones</a></li>
-                        <li><a href="shop.html">Laptops</a></li>
-                        <li><a href="shop.html">Tablets</a></li>
-                        <li><a href="shop.html">Audio</a></li>
-                        <li><a href="shop.html">Camera</a></li>
+                        <li>
+                          <a
+                            href="shop.html?category=electronics&amp;sub=Smartphones"
+                            >Smartphones</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="shop.html?category=electronics&amp;sub=Laptops"
+                            >Laptops</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="shop.html?category=electronics&amp;sub=Tablets"
+                            >Tablets</a
+                          >
+                        </li>
+                        <li>
+                          <a href="shop.html?category=electronics&amp;sub=Audio"
+                            >Audio</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="shop.html?category=electronics&amp;sub=Cameras"
+                            >Cameras</a
+                          >
+                        </li>
                       </ul>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                       <h2 class="megamenu__group-title h6">
-                        <i class="bi bi-bag">Fashion</i>
+                        <i class="bi bi-bag"></i>Fashion
                       </h2>
                       <ul class="megamenu__links">
-                        <li><a href="shop.html">Men</a></li>
-                        <li><a href="shop.html">Women</a></li>
-                        <li><a href="shop.html">Shoes</a></li>
-                        <li><a href="shop.html">Accessories</a></li>
-                        <li><a href="shop.html">Jewelry</a></li>
+                        <li><a href="shop.html?category=fashion">Men</a></li>
+                        <li><a href="shop.html?category=fashion">Women</a></li>
+                        <li>
+                          <a href="shop.html?category=fashion&amp;sub=Shoes"
+                            >Shoes</a
+                          >
+                        </li>
+                        <li>
+                          <a href="shop.html?category=fashion&amp;sub=Outerwear"
+                            >Outerwear</a
+                          >
+                        </li>
+                        <li>
+                          <a href="shop.html?category=accessories"
+                            >Accessories</a
+                          >
+                        </li>
                       </ul>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                       <h2 class="megamenu__group-title h6">
-                        <i class="bi bi-house-door">Home</i>
+                        <i class="bi bi-house-door"></i>Home
                       </h2>
                       <ul class="megamenu__links">
-                        <li><a href="shop.html">Furniture</a></li>
-                        <li><a href="shop.html">Kitchen</a></li>
-                        <li><a href="shop.html">Lighting</a></li>
-                        <li><a href="shop.html">Decoration</a></li>
+                        <li>
+                          <a href="shop.html?category=home&amp;sub=Furniture"
+                            >Furniture</a
+                          >
+                        </li>
+                        <li>
+                          <a href="shop.html?category=home&amp;sub=Kitchen"
+                            >Kitchen</a
+                          >
+                        </li>
+                        <li>
+                          <a href="shop.html?category=home&amp;sub=Lighting"
+                            >Lighting</a
+                          >
+                        </li>
+                        <li>
+                          <a href="shop.html?category=home&amp;sub=Decoration"
+                            >Decoration</a
+                          >
+                        </li>
                       </ul>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                       <h2 class="megamenu__group-title h6">
-                        <i class="bi bi-controller">Gaming</i>
+                        <i class="bi bi-controller"></i>Gaming
                       </h2>
                       <ul class="megamenu__links">
-                        <li><a href="shop.html">Controllers</a></li>
-                        <li><a href="shop.html">Headsets</a></li>
-                        <li><a href="shop.html">Keybords</a></li>
-                        <li><a href="shop.html">Mouses</a></li>
+                        <li>
+                          <a href="shop.html?category=gaming">Controllers</a>
+                        </li>
+                        <li>
+                          <a href="shop.html?category=gaming">Headsets</a>
+                        </li>
+                        <li><a href="shop.html?category=sports">Sports</a></li>
+                        <li><a href="shop.html?category=beauty">Beauty</a></li>
                       </ul>
                     </div>
 
                     <div class="col-lg-4">
-                      <a href="shop.html" class="megamenu__promo">
-                        <img src="#" alt="promo" loading="lazy" />
+                      <a class="megamenu__promo" href="shop.html?sale=1">
+                        <img
+                          src="assets/images/promo-audio.svg"
+                          alt=""
+                          loading="lazy"
+                        />
                         <span class="badge-brand align-self-start mb-2"
                           >Ends Sunday</span
                         >
-                        <span class="h4 mb-1 text-white">Up to 40% off</span>
+                        <span class="h4 mb-1 text-white"
+                          >Up to 40% off audio</span
+                        >
                         <span
                           class="small"
                           style="color: rgba(255, 255, 255, 0.8)"
+                          >Aurora, Pulse and Cove, all reduced.</span
                         >
-                          ...
-                        </span>
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
-              <a href="shop.html" class="nav-main__link">Shop</a>
-              <a href="shop.html" class="nav-main__link">New arrivals</a>
-              <a href="shop.html" class="nav-main__link">Deals</a>
-              <a href="about.html" class="nav-main__link">About</a>
+
+              <a class="nav-main__link" href="shop.html" data-page="shop.html"
+                >Shop</a
+              >
+              <a class="nav-main__link" href="shop.html?sort=newest"
+                >New arrivals</a
+              >
+              <a class="nav-main__link" href="shop.html?sale=1">Deals</a>
+              <a class="nav-main__link" href="about.html" data-page="about.html"
+                >About</a
+              >
             </nav>
 
             <form
-              action="#"
               class="search js-search ms-auto header-desktop-only"
               role="search"
               autocomplete="off"
             >
               <div class="search__field">
                 <i class="bi bi-search search__icon" aria-hidden="true"></i>
-                <label for="searchDesktop" class="visually-hidden"
-                  >Search Products</label
+                <label class="visually-hidden" for="searchDesktop"
+                  >Search products</label
                 >
                 <input
-                  type="search"
                   class="search__input"
                   id="searchDesktop"
+                  type="search"
                   name="q"
+                  placeholder="Search for products, brands and categories"
                   role="combobox"
                   aria-expanded="false"
                   aria-controls="searchResultsDesktop"
@@ -174,7 +247,7 @@
                 class="autocomplete"
                 id="searchResultsDesktop"
                 role="listbox"
-                aria-label="Search suggestion"
+                aria-label="Search suggestions"
               ></div>
             </form>
 
@@ -205,17 +278,113 @@
                 class="btn-icon js-cart-label"
                 type="button"
                 data-bs-toggle="offcanvas"
-                data-bs-target="#miniCart" 
-                aria-controls="miniCard"
+                data-bs-target="#miniCart"
+                aria-controls="miniCart"
                 aria-label="Cart, 0 items"
               >
                 <i class="bi bi-bag" aria-hidden="true"></i>
+                <span class="icon-count js-cart-count" data-count="0">0</span>
               </button>
 
+              <div class="dropdown header-desktop-only">
+                <button
+                  class="btn-icon"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  aria-label="Account menu"
+                >
+                  <i class="bi bi-person" aria-hidden="true"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end mt-2">
+                  <li class="dropdown-header">Maya Okafor</li>
+                  <li>
+                    <a class="dropdown-item" href="profile.html"
+                      ><i class="bi bi-person-circle"></i>Profile</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="orders.html"
+                      ><i class="bi bi-box-seam"></i>Orders</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="wishlist.html"
+                      ><i class="bi bi-heart"></i>Wishlist</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="addresses.html"
+                      ><i class="bi bi-geo-alt"></i>Addresses</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="dashboard.html"
+                      ><i class="bi bi-speedometer2"></i>Admin dashboard</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item is-danger" href="login.html"
+                      ><i class="bi bi-box-arrow-right"></i>Sign out</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <button
+                class="btn-icon header-mobile-only d-none"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#mobileNav"
+                aria-controls="mobileNav"
+                aria-label="Open menu"
+              >
+                <i class="bi bi-list" aria-hidden="true"></i>
+              </button>
             </div>
           </div>
+
+          <form
+            class="search js-search header-mobile-only d-none pb-3"
+            role="search"
+            autocomplete="off"
+          >
+            <div class="search__field">
+              <i class="bi bi-search search__icon" aria-hidden="true"></i>
+              <label class="visually-hidden" for="searchMobile"
+                >Search products</label
+              >
+              <input
+                class="search__input"
+                id="searchMobile"
+                type="search"
+                name="q"
+                placeholder="Search products"
+                role="combobox"
+                aria-expanded="false"
+                aria-controls="searchResultsMobile"
+                aria-autocomplete="list"
+              />
+              <button
+                class="search__clear"
+                type="button"
+                aria-label="Clear search"
+              >
+                <i class="bi bi-x-lg" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div
+              class="autocomplete"
+              id="searchResultsMobile"
+              role="listbox"
+              aria-label="Search suggestions"
+            ></div>
+          </form>
         </div>
       </div>
+      <div class="header-spacer" id="headerSpacer" aria-hidden="true"></div>
     </header>
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
