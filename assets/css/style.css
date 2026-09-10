@@ -157,3 +157,9 @@ h4, .h4 { font-size: var(--fs-h4); font-weight: 650;}
 h5, .h5 { font-size: var(--fs-body); font-weight: 650; letter-spacing: -0.015em;}
 h6, .h6 { font-size: var(--fs-sm); font-weight: 650; letter-spacing: -0.01em;}
 
+.display-title {
+  font-size: var(--fs-display);
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -0.04em;
+}
