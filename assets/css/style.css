@@ -120,3 +120,24 @@
 
   color-scheme: dark;
 }
+
+
+*, 
+*::before,
+*::after {box-sizing: border-box;}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--navbar-h) + 16px);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  transition: background-color var(--dur) var(--ease), color var(--dur) var(--ease);
+}
