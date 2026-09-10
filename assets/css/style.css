@@ -200,10 +200,24 @@ a:hover {color: var(--primary-dark)}
 
 hr {border-color: var(--border); opacity: 1;}
 
-::selection {background: var(--primary); color: #fff;}
+::selection {background: var(--primary); color: var(--surface);}
 :focus-visible {
   outline: 2px solid var(--primary);
   outline-offset: 2px;
   border-radius: 3px;
 }
 
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 2000;
+  padding: .75rem 1.25rem;
+  background: var(--text);
+  color: var(--surface);
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  transition: top var(--dur) var(--ease);
+}
+
+.skip-link:focus {top: 1rem; color: var(--surface);}
