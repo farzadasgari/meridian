@@ -163,3 +163,12 @@ h6, .h6 { font-size: var(--fs-sm); font-weight: 650; letter-spacing: -0.01em;}
   line-height: 1.04;
   letter-spacing: -0.04em;
 }
+
+p {margin-block: 0 1rem;}
+p:last-child {margin-bottom: 0;}
+
+.lead-text {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--muted);
+}
