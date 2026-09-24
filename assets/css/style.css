@@ -76,6 +76,9 @@
   --fs-body: 1rem;
   --fs-sm: 0.875rem;
   --fs-xs: 0.8125rem;
+  --fs-2xs:0.776rem;
+  --fs-3xs:0.6675rem;
+
 
   --section-y: clamp(3.5rem, 2rem + 5vw, 6rem);
   --gutter: 1.5rem;
